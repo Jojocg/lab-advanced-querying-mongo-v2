@@ -18,7 +18,7 @@ limit:
 
 query: {number_of_employees: { $gt: 5000 }}
 projection: 
-sort: 
+sort: {number_of_employees: 1}
 skip: 
 limit: 20
 
